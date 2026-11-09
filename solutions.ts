@@ -29,3 +29,10 @@ function formatCoordinate([latitude, longitude, locationName]: readonly [
 ]): string {
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+  const emptyArray: T[] = [];
+
+  const concatItems = emptyArray.concat(...arrays);
+  return concatItems;
+}
