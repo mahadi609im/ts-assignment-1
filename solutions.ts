@@ -21,3 +21,11 @@ function processInput(value: ProcessType): string | number {
     }
   }
 }
+
+function formatCoordinate([latitude, longitude, locationName]: readonly [
+  number,
+  number,
+  string,
+]): string {
+  return `Location: ${locationName} (${latitude}, ${longitude})`;
+}
