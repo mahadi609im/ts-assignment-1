@@ -2,9 +2,12 @@
 
 ## Introduction
 
-TypeScript-এ অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং (OOP) **Access Modifiers**
-(`public`, `private`, `protected`, এবং `readonly`) গুলো ক্লাসের ডেটা কে কোথায়
-অ্যাক্সেস করতে পারবে তা নিয়ন্ত্রণ করে।
+TypeScript-এ অবজেক্ট-ওরিয়েন্টেড প্রোগ্রামিং (OOP)-এ Access Modifiers (`public`,
+`private`, `protected`, এবং `readonly`) ব্যবহার করে ক্লাসের property ও method
+কোথা থেকে অ্যাক্সেস বা পরিবর্তন করা যাবে তা নিয়ন্ত্রণ করা হয়। এগুলো ক্লাসের
+ডেটা সুরক্ষিত রাখতে এবং কোডকে আরও সুন্দর ও নিয়ন্ত্রিতভাবে লিখতে সাহায্য করে।
+প্রতিটি modifier-এর কাজ আলাদা, যা class এবং child class-এর মধ্যে ডেটা ব্যবহারের
+নিয়ম নির্ধারণ করে।
 
 ## Modifiers
 

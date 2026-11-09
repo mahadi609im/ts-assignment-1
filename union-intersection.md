@@ -3,8 +3,9 @@
 ## Introduction
 
 TypeScript-এ Union (`|`) এবং Intersection (`&`) Types ব্যবহার করে একাধিক type
-একসাথে কাজ করানো যায়। Union দিয়ে একাধিক type-এর মধ্যে যেকোনো একটি গ্রহণ করা
-যায়, আর Intersection দিয়ে একাধিক type একসাথে যুক্ত করা যায়।
+নিয়ে কাজ করা যায়। Union ব্যবহার করে একাধিক type-এর মধ্যে যেকোনো একটি গ্রহণ করা
+যায়। অন্যদিকে, Intersection ব্যবহার করে একাধিক type একসাথে যুক্ত করে একটি নতুন
+type তৈরি করা যায়। এগুলো কোডকে আরও flexible এবং type-safe করতে সাহায্য করে।
 
 ## Union and Intersection
 
